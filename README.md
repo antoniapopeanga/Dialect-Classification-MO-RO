@@ -168,6 +168,8 @@ training_args_dialect = TrainingArguments(
 3. 🔄 **Ratios**: î/â and ă/a character ratios
 4. 🏷️ **Grammar**: Noun frequency patterns
 
+<img src="images/important characteristics.png" alt="Important features" width="700"/>
+
 ## 💡 Key Insights
 
 ### Linguistic Discoveries
