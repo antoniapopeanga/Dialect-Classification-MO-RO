@@ -2,31 +2,31 @@
 
 > **NitroNLP Project**: Automatic classification of Romanian Standard vs Moldovan dialect using machine learning and deep learning approaches.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project explores the challenging task of distinguishing between **Romanian Standard** and **Moldovan dialect** using state-of-the-art NLP techniques. We combine traditional machine learning with modern transformer architectures to achieve high classification accuracy.
 
 ### Key Objectives
-- 🎯 Automatically classify text samples as Romanian or Moldovan dialect
-- 🔍 Analyze linguistic differences between the two variants
-- ⚖️ Compare classical ML vs deep learning approaches
-- 📊 Provide interpretable insights into discriminative features
+-  Automatically classify text samples as Romanian or Moldovan dialect
+-  Analyze linguistic differences between the two variants
+-  Compare classical ML vs deep learning approaches
+-  Provide interpretable insights into discriminative features
 
-## 📚 Datasets
+##  Datasets
 
 | Dataset | Purpose | Description |
 |---------|---------|-------------|
 | [MOROCO](https://github.com/butnaruandrei/MOROCO) | Primary | News corpus for Romanian & Moldovan dialects |
 | [SlavicNER](https://github.com/BSoboleva/SlavicNER) | Comparative | Used for Russian similarity analysis |
 
-## 🔄 Data Processing Pipeline
+##  Data Processing Pipeline
 
 ### 1. Preprocessing Steps
-- ✅ **Lowercasing** - Normalize text case
-- ✅ **Punctuation removal** - Clean special characters
-- ✅ **Number removal** - Remove numeric content
-- ✅ **Space normalization** - Handle extra whitespace
-- ✅ **NER preservation** - Keep named entity tokens intact
+-  **Lowercasing** - Normalize text case
+-  **Punctuation removal** - Clean special characters
+-  **Number removal** - Remove numeric content
+-  **Space normalization** - Handle extra whitespace
+-  **NER preservation** - Keep named entity tokens intact
 
 ### 2. Dataset Splits
 - **Training set**: Model training
@@ -101,12 +101,12 @@ rf_model.fit(X_train_combined, y_train)
 ```
 
 **Feature Set:**
-- 🔤 **TF-IDF**: Up to 15,000 n-grams (4-6 range)
-- 📝 **Diacritics frequency**: î, ș, ț usage patterns
-- 🔄 **Letter ratios**: î/â and ă/a ratios
-- 🏷️ **POS tags**: Grammatical structure analysis
+-  **TF-IDF**: Up to 15,000 n-grams (4-6 range)
+-  **Diacritics frequency**: î, ș, ț usage patterns
+-  **Letter ratios**: î/â and ă/a ratios
+-  **POS tags**: Grammatical structure analysis
 
-### 🧠 Deep Learning with Transformers
+###  Deep Learning with Transformers
 
 **Model Setup:**
 ```python
@@ -139,7 +139,7 @@ training_args_dialect = TrainingArguments(
 )
 ```
 
-## 📈 Results & Performance
+##  Results & Performance
 
 ### Model Comparison
 
@@ -163,14 +163,14 @@ training_args_dialect = TrainingArguments(
 
 
 **Most Important Features:**
-1. 🔤 **Diacritics**: ș and ț frequency
-2. 📝 **Vocabulary**: *moldovenesc* and derivatives  
-3. 🔄 **Ratios**: î/â and ă/a character ratios
-4. 🏷️ **Grammar**: Noun frequency patterns
+1.  **Diacritics**: ș and ț frequency
+2.  **Vocabulary**: *moldovenesc* and derivatives  
+3.  **Ratios**: î/â and ă/a character ratios
+4.  **Grammar**: Noun frequency patterns
 
 <img src="images/important characteristics.png" alt="Important features" width="700"/>
 
-## 💡 Key Insights
+##  Key Insights
 
 ### Linguistic Discoveries
 - **Diacritics usage** is a strong dialect indicator
@@ -183,7 +183,7 @@ training_args_dialect = TrainingArguments(
 - **Feature engineering** provides valuable interpretability
 - **Ensemble approaches** could potentially combine both strengths
 
-## 🚀 Future Directions
+##  Future Directions
 
 ### Planned Improvements
 - [ ] **Cross-lingual embeddings** for Romanian-Moldovan-Russian analysis
