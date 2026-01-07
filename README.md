@@ -33,7 +33,7 @@ This project explores the challenging task of distinguishing between **Romanian 
 - **Validation set**: Hyperparameter tuning
 - **Test set**: Final evaluation
 
-## 🔬 Linguistic Analysis
+##  Linguistic Analysis
 
 ### Diacritics Distribution
 Moldovan texts show distinctive patterns in diacritics usage:
@@ -61,9 +61,9 @@ Cosine similarity analysis with SlavicNER data:
 - Romanian ↔ Russian: **-0.0005** (minimal connection)
 - Moldovan ↔ Russian: **+0.01** (slightly stronger Russian influence)
 
-## 🤖 Classification Approaches
+##  Classification Approaches
 
-### 📊 Classical Machine Learning
+###  Classical Machine Learning
 
 **Features Engineering:**
 ```python
